@@ -7,7 +7,8 @@ class EmailParser
   # attr_accessor :
   
   def parse(emails)
-    result = emails.split(',')
+    result = emails.split(',').strip
+    result.
   end
   
   
