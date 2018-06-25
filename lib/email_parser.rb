@@ -6,6 +6,7 @@
 class EmailParser
   attr_accessor :
   
+  
   def parse()
     comma_array = emails.split(',')
     both_array = comma_array.join.split(' ')
