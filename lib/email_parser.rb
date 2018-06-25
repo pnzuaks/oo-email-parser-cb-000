@@ -4,7 +4,7 @@
 # or whitespace (' ').
 
 class EmailParser
-  # attr_accessor :
+  attr_accessor :
   
   def parse()
     comma_array = emails.split(',')
