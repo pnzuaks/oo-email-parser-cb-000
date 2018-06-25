@@ -4,7 +4,7 @@
 # or whitespace (' ').
 
 class EmailParser
- 
+ attr_accessor :emails
  
   def parse()
     comma_array = emails.split(',')
