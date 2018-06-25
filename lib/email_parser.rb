@@ -8,7 +8,7 @@ class EmailParser
   
   def parse(emails)
     result = emails.split(',').strip
-    result.
+    result.uniq
   end
   
   
