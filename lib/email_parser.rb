@@ -5,10 +5,7 @@
 
 class EmailParser
  
- def initialize()
-   parse()
- end
-  
+ 
   def parse()
     comma_array = emails.split(',')
     both_array = comma_array.join.split(' ')
