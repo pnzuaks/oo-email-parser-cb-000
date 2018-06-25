@@ -6,8 +6,9 @@
 class EmailParser
  attr_accessor :emails
  
-   def initialize 
-   end
+ def initialize(emails) 
+   @emails = emails
+ end
  
   def parse()
     comma_array = emails.split(',')
